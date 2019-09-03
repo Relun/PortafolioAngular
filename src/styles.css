@@ -3,5 +3,8 @@
     margin-top: 5em;
 }
 body{
-    background-color: black;
+    /* background-color: black; */
+    background-image: url(./assets/img/fondorosado.jpg);
+    /* color: azure; */
+    
 }
