@@ -11,7 +11,6 @@
     animation: araya 10s ease-out infinite;
   }
 
-  
   /* Keyframes */
   @keyframes claudia {
     0% {
@@ -30,10 +29,12 @@
       transform: translateZ(-1000em);
     }
   }
-  /* .font-home{
-    background: transparent;
-    border: 1px solid #000;
-  } */
+
+  .font-home{
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-size: 3em;
+  }
+
   @keyframes araya {
     0% {
       opacity: 0;
@@ -60,9 +61,9 @@
   }
   
   /* General styles and layout */
-  body {
+  /* body {
     background-color: black;
-  }
+  } */
   
   .claudia-div {
     height: 17em;
@@ -73,7 +74,6 @@
     width: 34em;
   }
 
-  
   img {
     width: 100%;
   }
@@ -90,7 +90,6 @@
     bottom: -0.5em;
   }
 
-  
   /*** Media queries for adjusting to different screen sizes ***/
   
   @media only screen and (max-width: 600px) {
