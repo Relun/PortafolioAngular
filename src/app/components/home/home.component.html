@@ -1,7 +1,8 @@
 
 <div class="background" [ngStyle]="{'background-color': 'black'}">
 
-<div class="container"  style="padding: 4em">
+<!-- <div class="container" style="padding: 4em"> -->
+    <div class="container" [ngStyle]="{'padding': '3em'}">
         <div class="text-center">
             <!-- <div class="justify-content-center"> -->
                 <p class="hello-world">Hola Mundo</p>
@@ -15,16 +16,26 @@
         <!-- <p>Hola Mundo</p> -->
         <h1 alt="Claudia" class="claudia font-home"> SOY CLAUDIA ARAYA </h1>
         <h2 alt="Araya" class="araya font-homes">FRONT-END DEVELOPER</h2>
-        <!-- <img src="./assets/img/giphy.gif" alt="" srcset=""> -->
+       
     </div>   
 </article>
 
-<div class="container" style="padding: 15em">
+<!-- <div class="container" class="text-center" style="padding: 12em">
+ 
+        <div class="row">
+          <div class="col-12">
+<button type="button" class="btn btn-outline-light"  routerLink="/projects" routerLinkActive="active">VER PROYECTOS</button>
+</div>
+</div>
+</div> -->
+
+<div class="container" style="padding: 11em">
     <div class="text-center">
         <div class="justify-content-center">
-            <a class="btn btn-outline-secondary" routerLink="/projects" routerLinkActive="active">VER MIS PROYECTOS</a>
+            <a class="btn btn-outline-light" routerLink="/projects" routerLinkActive="active">PROYECTOS</a>
         </div>
      </div>
 </div>
 
 </div>
+

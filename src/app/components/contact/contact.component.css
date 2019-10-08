@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
 .container{
     padding: 2em;
 }
@@ -6,9 +8,12 @@
     display: flex;
     flex-direction: row;
     width: 100%;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     flex-flow: wrap;
+    justify-content: left;
+    margin-left: 3em;
 }
+
 
 .contact-div{
     display: flex;
@@ -16,6 +21,7 @@
     align-items: center;
     height: 6em;
     width: 6em;
+    /* padding-left: 10em; */
     /*obj-fit:acomoda las imagenes y quedan todas del mismo tamaño sin pixelar */
     object-fit: cover; 
 }
@@ -23,5 +29,24 @@
 .fab, .fas{
    
     color:black;
-    font-size: 8em;
+    font-size: 4em;
 }
+
+.contact-phone{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 2em;
+    width: 40em;
+    /* padding-left: 10em; */
+    /*obj-fit:acomoda las imagenes y quedan todas del mismo tamaño sin pixelar */
+    object-fit: cover; 
+}
+p, a{
+font-weight: bold;
+}
+
+.phone{
+    color:rgb(216, 40, 69);
+}
+

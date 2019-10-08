@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Playball&display=swap');
-
-
+/* @import url('https://fonts.googleapis.com/css?family=Noto+Serif&display=swap'); */
+@import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Arvo|Noto+Serif&display=swap');
 /* .body{
   background-color: black !important;
 } */
@@ -8,6 +9,7 @@
 
 
 .hello-world{
+  font-family: 'Courgette', cursive;
   color:rgb(216, 40, 69);
   font-size: 2em;
   text-align: center;
@@ -40,16 +42,17 @@
   }
 
   .font-home{
-  font-family: 'Playball', cursive;
+    font-family: 'Noto Serif', serif;
    font-size: 3em;
    text-align: center;
    color: white;
   }
 
   .font-homes{
-    font-family: 'Playball', cursive;
+    font-family: 'Noto Serif', serif;
      font-size: 2em;
      text-align: center;
+     color:white;
      /* margin-left: 1em; */
     }
 
@@ -72,20 +75,20 @@
   }
    
   /* Make the 3D work on the container */
-  .claudia-div {
+  /* .claudia-div {
     
     perspective: 800px;
     transform-style: preserve3d;
-  }
+  } */
  
   .claudia-div {
     /* text-align: center; */
-    height: 10em;
-    left: 50%;
+    height: 8em;
+    left: 49%;
     position: absolute;
-    top: 55%;
+    top: 54%;
     transform: translate(-50%, -50%);
-    width: 36em;
+    width: 31em;
   }
 
   .claudia {
@@ -102,20 +105,31 @@
   
   @media only screen and (max-width: 600px) {
     .claudia-div {
-      font-size: 10px;
+      font-size: 9px;
     }
 
-    /* .container{
-      font-size: 10px;
+    .hello-world{
+
+      font-size: 1em;
+    }
+    /* .justify-content-center{
+      width: 1em;
+      height: 1em;
     } */
   }
   
   @media only screen and (max-width: 480px) {
     .claudia-div {
-      font-size: 7px;
+      font-size: 6px;
     }
 
-    /* .container{
-      font-size: 7px;
+    .hello-world{
+
+      font-size: 1em;
+
+    }
+    /* .justify-content-center{
+      width: 1em;
+      height: 1em;
     } */
   }
