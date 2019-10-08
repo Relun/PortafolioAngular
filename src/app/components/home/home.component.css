@@ -1,14 +1,23 @@
-@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300);
+@import url('https://fonts.googleapis.com/css?family=Playball&display=swap');
 
-#hello{
-  background-color: black;
+
+/* .body{
+  background-color: black !important;
+} */
+
+
+
+.hello-world{
+  color:rgb(216, 40, 69);
+  font-size: 2em;
+  text-align: center;
 }
 /* Animation */
 .claudia {
-    animation: claudia 10s ease-out infinite;
+    animation: claudia 10s;
   }
   .araya {
-    animation: araya 10s ease-out infinite;
+    animation: araya 10s;
   }
 
   /* Keyframes */
@@ -31,9 +40,18 @@
   }
 
   .font-home{
-   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Playball', cursive;
    font-size: 3em;
+   text-align: center;
+   color: white;
   }
+
+  .font-homes{
+    font-family: 'Playball', cursive;
+     font-size: 2em;
+     text-align: center;
+     /* margin-left: 1em; */
+    }
 
   @keyframes araya {
     0% {
@@ -52,54 +70,52 @@
       transform: translateZ(-1000em);
     }
   }
-  
-  
+   
   /* Make the 3D work on the container */
   .claudia-div {
+    
     perspective: 800px;
     transform-style: preserve3d;
   }
-  
-  /* General styles and layout */
-  /* body {
-    background-color: black;
-  } */
-  
+ 
   .claudia-div {
-    height: 17em;
+    /* text-align: center; */
+    height: 10em;
     left: 50%;
     position: absolute;
-    top: 53%;
+    top: 55%;
     transform: translate(-50%, -50%);
     width: 36em;
   }
 
-  img {
-    width: 100%;
-  }
-  
-  .claudia, .araya {
-    position: absolute;
-  }
-  
   .claudia {
-    top: -0.75em;
+    /* top: -0.75em; */
+    top: -2em;
   }
   
   .araya {
-    bottom: -0.5em;
+    /* bottom: -0.5em; */
+    bottom: -2em;
   }
 
-  /*** Media queries for adjusting to different screen sizes ***/
+  /* Media queries*/
   
   @media only screen and (max-width: 600px) {
     .claudia-div {
       font-size: 10px;
     }
+
+    /* .container{
+      font-size: 10px;
+    } */
   }
   
   @media only screen and (max-width: 480px) {
     .claudia-div {
       font-size: 7px;
     }
+
+    /* .container{
+      font-size: 7px;
+    } */
   }

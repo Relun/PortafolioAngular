@@ -1,16 +1,27 @@
+
+
+body {
+    margin: 0;
+  }
+
+/* ::ng-deep .home {
+    height: 100% !important;
+    background-color: #e40134 !important;
+} */
+
 /* You can add global styles to this file, and also import other style files */
-.container{
+/* .container{
     margin-top: 5em;
 }
-body{
+body{ */
     /* background-color: black; */
     /* background-repeat: no-repeat; */
-    background: url(./assets/img/soft-blue-gradient.jpg) no-repeat center center fixed; 
-    /* background: url(./assets/img/fondo-textura-papel.jpg) no-repeat center center fixed;  */
+    /* background: url(./assets/img/soft-blue-gradient.jpg) no-repeat center center fixed; 
+  
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+    background-size: cover; */
 
 /* 
     background: -webkit-linear-gradient(90deg, yellow 10%, orange 90%);
@@ -20,4 +31,4 @@ body{
     background: linear-gradient(90deg, yellow 10%, orange 90%); */
 
     
-}
+/* } */
